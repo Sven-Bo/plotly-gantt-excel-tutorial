@@ -1,0 +1,7 @@
+# Change Color Scale
+color_continuous_scale = [(0, "red"), (0.5, "yellow"), (1, "green")]
+color_continuous_scale = px.colors.sequential.Viridis
+
+# Interactive Chart
+import plotly.figure_factory as ff
+fig = ff.create_gantt(df)
